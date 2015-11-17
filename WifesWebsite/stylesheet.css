@@ -1,25 +1,32 @@
 /*==========LAYOUT SECTION ==============*/
-body{
- background-color: #FFFFFF;
- margin: 0px;
- font-family: Verdana, Georgia, serif;
- font-size: 14px;
-}
 
-#header{
-width: 100%;
-	height: 600px;
-	margin: 0px auto; 
-	background-image: url(./arch.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	min-height: 475px;
-	position: relative;
-margin: 10px;
-border-radius: 5px;
+body{
+background-color: green;
+background-repeat: no-repeat;
+ margin: auto;
+ font-size: 14px;
+ max-width:1020px;
 }
-#navbar ul{
+#container{
+	
+	
+	background-attachment: fixed;
+	font-size: 13px;
+	font-family: Verdana, Georgia, serif;
+	padding: 10px auto 0 auto;
+	margin: auto;
+}
+ 
+.image{
+	background: url(./arch.jpg);
+	background-repeat: no-repeat;
+	//background-position: 100% 0%;
+	background-size: 100%;
+	height: 600px;
+	border-radius: 5px;
+	
+}
+#navigation ul{
 padding: 5px;
 list-style-type: none; /* gets rid of bullet pts*/
 text-align: center;
@@ -27,17 +34,17 @@ background-color: #000;
 margin: 10px;
 border-radius: 5px;
 }
-#navbar ul li{
+#navigation ul li{
 display: inline; /* displays side by side */
 }
-#navbar ul li a{
+#navigation ul li a{
 text-decoration: none; /* gets rid of underline */
 font-family: Arial;
 padding: .2em 1em;
 color: #fff;
 background-color: #000;
 }
-#navbar ul li a:hover{
+#navigation ul li a:hover{
 color: #000;
 background-color: #fff;
 }
@@ -137,3 +144,4 @@ transition: opacity .5s ease-in-out;
 }
 .imagesidebar:hover{
 opacity: 0.4;
+}
